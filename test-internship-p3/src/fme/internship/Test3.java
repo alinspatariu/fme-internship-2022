@@ -77,15 +77,28 @@
 
 package fme.internship;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 /**
  * 
- * @author <full name>
- * @email <email address>
+ * @author <Spatariu Alin>
+ * @email <spatariualin07@gmail.com>
  * 
  */
+
 public class Test3 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+        List<Circle> circles = new ArrayList<>();
+        List<Square> squares = new ArrayList<>();
+        List<Rectangle> rectangles = new ArrayList<>();
+        List<Triangle> triangles = new ArrayList<>();
+        File file = new File("C:\\Users\\Alin\\Desktop\\Facultate Automatica\\Jobs\\FME\\fme-internship-2022\\test-internship-p3\\src\\shapes.in");
+        Scanner scanner = new Scanner(file);
         System.out.println("FME Internship - Test3");
     }
 
